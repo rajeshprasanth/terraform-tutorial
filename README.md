@@ -1,9 +1,9 @@
 # Home Lab Terraform & OpenTofu Projects
 
-![OpenTofu](https://img.shields.io/badge/OpenTofu-v1.9.0-blue?logo=terraform&logoColor=white)
-![Terraform](https://img.shields.io/badge/Terraform-v1.13.0-blue?logo=terraform&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-27.3.1-blue?logo=docker&logoColor=white)
-![Portainer](https://img.shields.io/badge/Portainer-latest-blue?logo=portainer&logoColor=white)
+![OpenTofu](https://img.shields.io/badge/OpenTofu-v1.9.0-green?logo=terraform&logoColor=white)
+![Terraform](https://img.shields.io/badge/Terraform-v1.13.0-green?logo=terraform&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-27.3.1-green?logo=docker&logoColor=white)
+![Portainer](https://img.shields.io/badge/Portainer-latest-green?logo=portainer&logoColor=white)
 ![License](https://img.shields.io/badge/License-GPLv3-blue)
 
 This repository contains Terraform and Docker projects for deploying, managing, and automating services in a home lab environment. It is designed to be **modular, reusable, and easy to extend**.
