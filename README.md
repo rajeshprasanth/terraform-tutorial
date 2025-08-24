@@ -1,4 +1,10 @@
-# Home Lab Terraform & Docker Projects
+# Home Lab Terraform & OpenTofu Projects
+
+![OpenTofu](https://img.shields.io/badge/OpenTofu-v1.9.0-blue?logo=terraform&logoColor=white)
+![Terraform](https://img.shields.io/badge/Terraform-v1.13.0-blue?logo=terraform&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-27.3.1-blue?logo=docker&logoColor=white)
+![Portainer](https://img.shields.io/badge/Portainer-latest-blue?logo=portainer&logoColor=white)
+![License](https://img.shields.io/badge/License-GPLv3-blue)
 
 This repository contains Terraform and Docker projects for deploying, managing, and automating services in a home lab environment. It is designed to be **modular, reusable, and easy to extend**.
 
@@ -27,9 +33,20 @@ This repository contains Terraform and Docker projects for deploying, managing, 
 
 ### **1. Prerequisites**
 
-* [Terraform](https://www.terraform.io/downloads) >= 1.5.0
-* [Docker](https://docs.docker.com/get-docker/) installed on the host machine
-* Optional: [Portainer](https://www.portainer.io/) for stack management
+Before using the projects in this repository, ensure you have the following installed:
+
+- **Terraform** v1.13.0  
+  - [Download Terraform](https://www.terraform.io/downloads)  
+- **OpenTofu** v1.9.0  
+  - [Download OpenTofu](https://opentofu.io/)  
+- **Docker** 27.3.1  
+  - [Install Docker](https://docs.docker.com/get-docker/)  
+- **Docker Compose** (if using stack deployments)  
+  - Often included with recent Docker versions  
+- **Portainer** (optional) for stack management  
+  - [Portainer.io](https://www.portainer.io/)  
+
+> Ensure Docker daemon is running and your user has permissions to manage containers (use `sudo` if needed).
 
 ---
 
